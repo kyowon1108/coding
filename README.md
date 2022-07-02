@@ -1,2 +1,2 @@
-echo '#my first git use'
-echo 'Hello World!'
+# my first git use
+Hello World!
