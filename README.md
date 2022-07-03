@@ -1,2 +1,2 @@
-# my first git use
-Hello World!
+# git test
+If this message appears, git upload is success
