@@ -21,7 +21,7 @@ Host github.com
 ```  
 $ ssh -T git@github.com
 ```
-### 3. 깃허브에 SSH 키로 접속 테스트
+## 3. 깃허브에 SSH 키로 접속 테스트
 ```
 $ git clone git@github.com:kyowon1108/coding.git
 $ ls
@@ -32,5 +32,10 @@ $ cd coding
 $ git config --global user.name kyowon1108
 $ git config --global user.email kyowon1108@gmail.com
 ```
+## 4. 파일 저장후 연동
+```
+$ git add .
+$ git commit -m '내용'
+$ git push origin --all
 
-이후는 알아서
+```
