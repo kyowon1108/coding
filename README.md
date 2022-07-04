@@ -11,8 +11,11 @@ https://github.com/settings/ssh/new
 
 ## 2. SSH 접속 설정
 ### file : ~/.ssh/config
-	Host github.com
-	 	IdentityFile ~/.ssh/id_ed25519
-		User git
-  
+```
+Host github.com
+ 	IdentityFile ~/.ssh/id_ed25519
+	User git
+```
+```  
 	$ ssh -T git@github.com
+```
