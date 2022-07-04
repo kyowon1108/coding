@@ -17,6 +17,20 @@ Host github.com
  	IdentityFile ~/.ssh/id_ed25519
 	User git
 ```
+이후 접속 테스트
 ```  
-	$ ssh -T git@github.com
+$ ssh -T git@github.com
 ```
+### 3. 깃허브에 SSH 키로 접속 테스트
+```
+$ git clone git@github.com:kyowon1108/coding.git
+$ ls
+```
+사용자 정보 등록
+```
+$ cd coding
+$ git config --global user.name kyowon1108
+$ git config --global user.email kyowon1108@gmail.com
+```
+
+이후는 알아서
