@@ -14,5 +14,5 @@ https://github.com/settings/ssh/new
 	Host github.com
 	 	IdentityFile ~/.ssh/id_ed25519
 		User git
-asdf
+  
 	$ ssh -T git@github.com
